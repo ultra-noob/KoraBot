@@ -21,21 +21,21 @@ from tg_bot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}
+Hi {}, my name is {RAVAN}
 I am a group management bot.	
-Build by weebs for weebs, I specialize in managing groups.	
+Build by Nikhil, I specialize in managing groups.	
 You can find my list of available commands with :	
 👉 /help.
 """
 
 
-BOT_IMG = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
+BOT_IMG = "https://telegra.ph/file/2d4bcdd718874d25773f1.jpg"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/2fbf54ecf569496431507.jpg)
+*Helpful Commands :* [.](https://telegra.ph/file/2d4bcdd718874d25773f1.jpg)
 ✧ /start: Starts me! You've probably already used this.
 ✧ /help: Sends this message; I'll tell you more about myself!
 ✧ /settings: 
@@ -150,21 +150,21 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add kora to your group",
+                            text="Add Ravan to your group",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
                         InlineKeyboardButton(
                             text="Support Chat ",
-                            url="https://t.me/KoraSupport"),
+                            url="https://t.me/ravansupportgroup222"),
                         InlineKeyboardButton(
                             text="Updates ",
-                            url="https://t.me/koraupdates")
+                            url="https://t.me/ravansupportgroup222")
                     ],
                     [
                         InlineKeyboardButton(
                             text="help",
-                            url="https://t.me/koragroup_bot?start=help")
+                            url="https://t.me/Ravangroup_Bot?start=help")
                     ]]))
        
 #@run_async
